@@ -6,7 +6,11 @@
   margin: 0;
   padding: 0;
 }
-
+  h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
 :root {
   --bg: #ffffff;
   --text: #1a1a1a;
@@ -288,22 +292,6 @@ a:hover {
   color: var(--bg);
 }
 
-/* =============================================
-   BACK TO TOP
-   ============================================= */
-.back-to-top {
-  display: block;
-  text-align: center;
-  margin-top: 80px;
-  font-size: 12px;
-  color: var(--muted);
-  letter-spacing: 0.03em;
-}
-
-.back-to-top:hover {
-  color: var(--text);
-  text-decoration: none;
-}
 
 /* =============================================
    RESPONSIVE
@@ -347,4 +335,5 @@ a:hover {
   .work-grid {
     grid-template-columns: 1fr;
   }
+
 }
